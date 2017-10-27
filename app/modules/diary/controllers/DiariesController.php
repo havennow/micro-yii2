@@ -18,11 +18,12 @@ class DiariesController extends Controller
      */
     public $modelClass = 'base\modules\diary\models\Diary';
 
-    /*
+    /**
      * For example only rules CORS - Same origin
      */
+
     /**
-     * @return array
+     * @inheritdoc
      */
     public function behaviors()
     {
