@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Config file, defined alias path and below make route for default one module
+ * after define type request parser ( JSON - for RESTful )
+ * and set database ( SQLite ), after again set rules for request controller (UrlManager) - with rewrite
+ */
 return [
     'id' => 'diary-api',
 
