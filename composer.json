@@ -1,0 +1,17 @@
+{
+  "require": {
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-codeception": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "base\\": ["app/controllers","app/modules"]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
