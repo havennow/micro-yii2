@@ -5,10 +5,25 @@ namespace base\modules\diary\controllers;
 use yii\rest\ActiveController as Controller;
 use yii\filters\Cors;
 
+
+/**
+ * Class DiariesController
+ * For example diary API Restful
+ * @package base\modules\diary\controllers
+ */
 class DiariesController extends Controller
 {
+    /**
+     * @var \yii\db\ActiveRecordInterface
+     */
     public $modelClass = 'base\modules\diary\models\Diary';
 
+    /*
+     * For example only rules CORS - Same origin
+     */
+    /**
+     * @return array
+     */
     public function behaviors()
     {
         $parentBehaviors = parent::behaviors();
