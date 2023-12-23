@@ -1,6 +1,7 @@
 {
   "require": {
-    "yiisoft/yii2": "*",
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "~2.0.45",
     "yiisoft/yii2-codeception": "^2.0"
   },
   "autoload": {
@@ -13,5 +14,10 @@
       "type": "composer",
       "url": "https://asset-packagist.org"
     }
-  ]
+  ],
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
 }
